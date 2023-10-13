@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.UsuariosController">
+   <children>
+      <Label layoutX="30.0" layoutY="18.0" text="USUARIOS">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUser" layoutX="34.0" layoutY="167.0" prefHeight="24.0" prefWidth="92.0" promptText="User" />
+      <TextField fx:id="txtNome" layoutX="135.0" layoutY="167.0" prefHeight="24.0" prefWidth="323.0" promptText="Nome" />
+      <TextField fx:id="txtSenha" layoutX="469.0" layoutY="107.0" prefHeight="24.0" prefWidth="112.0" promptText="Senha" />
+      <TextField fx:id="txtConfirma" layoutX="469.0" layoutY="167.0" prefHeight="24.0" prefWidth="112.0" promptText="Confirmação" />
+      <Label layoutX="34.0" layoutY="144.0" text="USER" />
+      <Label layoutX="137.0" layoutY="144.0" text="NOME" />
+      <Label layoutX="470.0" layoutY="87.0" text="SENHA" />
+      <Button fx:id="btncadas" layoutX="360.0" layoutY="236.0" mnemonicParsing="false" prefWidth="102.0" text="CADASTRAR" />
+      <Button fx:id="btnCancela" layoutX="476.0" layoutY="236.0" mnemonicParsing="false" prefWidth="102.0" text="CANCELA" />
+      <Label layoutX="472.0" layoutY="144.0" text="Confirmação" />
+      <Separator layoutX="26.0" layoutY="62.0" prefHeight="0.0" prefWidth="564.0" />
+   </children>
+</Pane>
